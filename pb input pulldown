@@ -2,7 +2,7 @@
 
 
   Button  (input pulldown)
-
+  Digital input and output
   Turns on and off a light emitting diode(LED) connected to digital pin 8,
 
  
