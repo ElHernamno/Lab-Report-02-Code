@@ -1,0 +1,37 @@
+/* 
+
+  Blink (light chaser with Breadboard LEDs)
+
+  Turns an LED on for one second, then off for one second, repeatedly. 
+
+*/ 
+
+// the setup function runs once when you press reset or power the board 
+
+void setup() { 
+
+  // initialize digital pins 8 and 2 as an outputs. 
+
+  pinMode(8, OUTPUT); 
+
+  pinMode(2,OUTPUT); 
+
+} 
+
+// the loop function runs over and over again forever 
+
+void loop() { 
+
+  digitalWrite(8, HIGH);// turn the LED on (HIGH is the voltage level) 
+
+  digitalWrite(2,LOW);  // turn the LED off (LOW is the voltage level) 
+
+  delay(1000);                      // wait for a second 
+
+  digitalWrite(8, LOW);   // turn the LED off by making the voltage LOW 
+
+  digitalWrite(2,HIGH);   // turn the LED on by making the voltage HIGH 
+
+  delay(1000);                      // wait for a second 
+
+}
