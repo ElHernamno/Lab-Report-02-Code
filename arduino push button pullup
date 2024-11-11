@@ -1,6 +1,8 @@
 /* 
 
-  Button
+  Button(pullup)
+
+  Digital input and output
 
   Turns on and off a light emitting diode(LED) connected to digital pin 13, 
 
