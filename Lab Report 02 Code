@@ -1,7 +1,7 @@
 /*
   Blink
   Turns on an LED for a second, then turns off a second later, repeatedly.
-  Digital 
+  Digital output
 */
 
 // the setup function starts once powering the arduino
