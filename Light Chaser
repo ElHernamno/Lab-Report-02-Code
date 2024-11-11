@@ -3,10 +3,12 @@
   Blink (light chaser with Breadboard LEDs)
 
   Turns an LED on for one second, then off for one second, repeatedly. 
+  This time, there are two, and when one is off, the other turns on, and vice versa.
+  Digital Output
 
 */ 
  
-// the setup function runs once when you press reset or power the board 
+// the setup function runs once power hits the board 
 
 void setup() { 
 
