@@ -57,7 +57,7 @@ void  loop() {
 
 } 
 
-void setColor(int redValue, int greenValue,  int blueValue) { 
+void setColor(int redValue, int greenValue,  int blueValue) {   //function that allows the user to change rgb color 
 
   analogWrite(redPin, redValue); 
 
