@@ -54,22 +54,24 @@ void loop() {
 
     // turn LED on: 
 
-    digitalWrite(7, LOW); 
-
-    digitalWrite(6,LOW); 
-
-    digitalWrite(5,LOW); 
-
-  } else { 
-
-    // turn LED off: 
-
     digitalWrite(7, HIGH); 
 
     digitalWrite(6,HIGH); 
 
     digitalWrite(5,HIGH); 
 
+    
+
+  } else { 
+
+    // turn LED off: 
+   
+    digitalWrite(7, LOW); 
+
+    digitalWrite(6,LOW); 
+
+    digitalWrite(5,LOW); 
+    
   } 
 
 }
